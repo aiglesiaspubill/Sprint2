@@ -23,8 +23,6 @@ function comparar(){
     }
 }
 
-comparar();
-
 
 //2. Escribir el código de una función a la que se pasa como parámetro un número entero y devuelve como resultado una string que indica si el número es par o impar. Mostrar por pantalla el resultado devuelto por la función.
 //if(), %
@@ -39,9 +37,6 @@ function parimpar(){
         console.log("EL NUMERO ES IMPAR");
     }
 }
-
-parimpar();
-
 
 
 
@@ -61,7 +56,6 @@ function recorrerArray(){
     console.log(arrayMultiples);
 }
 
-recorrerArray();
 
 
 //4. Dada la array, escribe una función que encuentre el número menor. (No utilizar Math.min())
@@ -79,7 +73,6 @@ function menor(){
     console.log("EL NUMERO ENCONTRADO ES: " +menor);
 }
 
-menor();
 
 
 //5. Utilizando la array anterior, encuentra el número más grande. (No utilizar Math.max())
@@ -96,8 +89,6 @@ function mayor(){
     }
     console.log("EL NUMERO ENCONTRADO ES: " +mayor);
 }
-
-mayor();
 
 
 //6. Utilizando la array anterior, encontrar los números que se repiten, guardarlos en una array (si aun no existen en esta) y mostrarlos en consola
@@ -121,7 +112,6 @@ function seRepiten() {
     console.log(arrayRepiten);
     
 }
-seRepiten();
 
 
 
@@ -145,7 +135,6 @@ function eliminarPares(){
     console.log(numeros);
 
 }
-eliminarPares();
 
 
 //8. Escribir un script que simule el lanzamiento de dos dados. Hacer uso de la función Math.random() para obtener números aleatorios 
@@ -213,7 +202,6 @@ function mostraNombreApellido(){
     console.log("Su nombre y apellidos son los siguientes: " + nombre +" "+ apellido);
 }
 
-mostraNombreApellido();
 
 
 //12. Dado el objecto anterior, crea una array con todas las keys y luego úsala para mostrar en consola todas las values
@@ -225,7 +213,6 @@ function retornarKeys(){
     console.log(arrayKeys);
 }
 
-retornarKeys();
 
 
 //13. Dado el objeto anterior, añade las edades a las mascotas. Luego muestra cada una de las mascotas en consola por separado
